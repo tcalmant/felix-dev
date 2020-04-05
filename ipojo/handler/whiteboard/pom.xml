@@ -31,7 +31,7 @@
 
     <modules>
         <module>whiteboard-handler</module>
-        <module>whiteboard-handler-it</module>
+        <!-- <module>whiteboard-handler-it</module> -->
     </modules>
 
     <build>

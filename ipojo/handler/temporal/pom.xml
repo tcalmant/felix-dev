@@ -31,7 +31,7 @@
 
     <modules>
         <module>temporal-dependency-handler</module>
-        <module>temporal-dependency-handler-it</module>
+        <!-- <module>temporal-dependency-handler-it</module> -->
     </modules>
 
     <build>

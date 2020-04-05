@@ -31,7 +31,7 @@
 
     <modules>
         <module>eventadmin-handler</module>
-        <module>eventadmin-handler-it</module>
+        <!-- <module>eventadmin-handler-it</module> -->
     </modules>
 
 </project>

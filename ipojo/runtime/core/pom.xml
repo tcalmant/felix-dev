@@ -100,14 +100,8 @@
         </dependency>
         <dependency>
             <groupId>org.ow2.asm</groupId>
-            <artifactId>asm-all</artifactId>
-            <version>5.0.2</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.ow2.asm</groupId>
-                    <artifactId>asm-tree</artifactId>
-                </exclusion>
-            </exclusions>
+            <artifactId>asm</artifactId>
+            <version>8.0.1</version>
         </dependency>
       <dependency>
         <groupId>org.mockito</groupId>

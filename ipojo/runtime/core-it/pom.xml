@@ -218,7 +218,15 @@
             <exclusions>
                 <exclusion>
                     <groupId>asm</groupId>
-                    <artifactId>asm-all</artifactId>
+                    <artifactId>asm</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>asm</groupId>
+                    <artifactId>asm-commons</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>asm</groupId>
+                    <artifactId>asm-util</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>

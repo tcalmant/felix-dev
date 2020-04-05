@@ -35,9 +35,19 @@
     <dependencies>
         <dependency>
             <groupId>org.ow2.asm</groupId>
-            <artifactId>asm-all</artifactId>
-            <version>5.0.1</version>
+            <artifactId>asm</artifactId>
+            <version>8.0.1</version>
         </dependency>
+        <dependency>
+		    <groupId>org.ow2.asm</groupId>
+		    <artifactId>asm-commons</artifactId>
+		    <version>8.0.1</version>
+		</dependency>
+        <dependency>
+		    <groupId>org.ow2.asm</groupId>
+		    <artifactId>asm-util</artifactId>
+		    <version>8.0.1</version>
+		</dependency>
         <dependency>
             <groupId>org.apache.felix</groupId>
             <artifactId>org.apache.felix.ipojo.api</artifactId>

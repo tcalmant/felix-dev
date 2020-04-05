@@ -130,10 +130,10 @@ public class MethodDescriptor {
      * @param ann annotation to add
      */
     public void addParameterAnnotation(int id, AnnotationDescriptor ann) {
-        List<AnnotationDescriptor> list = m_parameterAnnotations.get(new Integer(id));
+        List<AnnotationDescriptor> list = m_parameterAnnotations.get(id);
         if (list == null) {
             list = new ArrayList<AnnotationDescriptor>();
-            m_parameterAnnotations.put(new Integer(id), list);
+            m_parameterAnnotations.put(id, list);
         }
         list.add(ann);
     }

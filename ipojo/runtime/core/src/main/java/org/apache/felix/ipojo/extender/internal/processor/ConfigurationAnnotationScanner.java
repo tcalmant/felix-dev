@@ -41,7 +41,7 @@ public class ConfigurationAnnotationScanner extends ClassVisitor implements Opco
     private String m_super;
 
     public ConfigurationAnnotationScanner() {
-        super(Opcodes.ASM5);
+        super(Opcodes.ASM8);
     }
 
 

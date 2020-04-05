@@ -31,8 +31,8 @@
     <version>1.5.0-SNAPSHOT</version>
 
     <properties>
-        <exam.version>3.0.0</exam.version>
-        <url.version>1.5.1</url.version>
+        <exam.version>4.13.3</exam.version>
+        <url.version>2.6.2</url.version>
     </properties>
 
     <dependencies>
@@ -61,6 +61,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        
+		<dependency>
+		    <groupId>javax.inject</groupId>
+		    <artifactId>javax.inject</artifactId>
+		    <version>1</version>
+		</dependency>
+        
 
         <dependency>
             <groupId>org.apache.felix</groupId>
@@ -73,7 +80,7 @@
         <dependency>
             <groupId>org.apache.felix</groupId>
             <artifactId>org.apache.felix.ipojo</artifactId>
-            <version>1.8.6</version>
+            <version>1.12.2-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
 
@@ -109,14 +116,14 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>1.2.0</version>
+            <version>1.2.3</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.0</version>
+            <version>1.2.3</version>
             <scope>test</scope>
         </dependency>
 
@@ -124,7 +131,7 @@
         <dependency>
             <groupId>org.ops4j.pax.tinybundles</groupId>
             <artifactId>tinybundles</artifactId>
-            <version>1.0.0</version>
+            <version>3.0.0</version>
             <scope>test</scope>
         </dependency>
 
@@ -137,7 +144,7 @@
         <dependency>
             <groupId>org.ow2.chameleon.testing</groupId>
             <artifactId>osgi-helpers</artifactId>
-            <version>0.6.0</version>
+            <version>0.6.2</version>
         </dependency>
 
         <dependency>
